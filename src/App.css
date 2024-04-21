@@ -1,0 +1,300 @@
+#homepage {
+    height: 100vh;
+    background-color: var(--black);
+}
+
+#homepage input {
+    font-size: 20px;
+    padding: 8px 17px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#homepage input::placeholder {
+    color: #B6B6B6;
+}
+
+#homepage input:nth-child(1) {
+    width: 492px;
+}
+
+#homepage input:nth-child(2) {
+    width: 241px;
+    margin-left: 7px;
+}
+
+#homepage #selection-button-holder {
+    margin-top: 7px;
+    gap: 7px;
+}
+
+#homepage .selection-btn {
+    height: 47px;
+    width: 242px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#homepage .selection-btn:nth-child(1) {
+    background-color: var(--blue);
+    color: #6B6B6B;
+}
+
+#homepage .selection-btn:nth-child(2) {
+    background-color: var(--red);
+    color: white;
+}
+
+#homepage .selection-btn:nth-child(3) {
+    background-color: var(--green);
+    color: #6B6B6B;
+}
+
+#homepage #avatar-selection {
+    flex-wrap: wrap;
+    width: 757px;
+    gap: 57px;
+    margin-top: 57px;
+}
+
+#homepage #avatar-selection img {
+    width: 180px;
+    height: 180px;
+    background-color: #BCEDF4;
+    border-radius: 50%;
+}
+
+#homepage #avatar-selection .avatar-selected img {
+    background-color: var(--red);   
+}
+
+#homepage #avatar-selection button {
+    background-color: transparent;
+}
+
+#homepage #join-create-modal{
+    position: absolute;
+    width: 95vw;
+    height: 95vh;
+    background-color: #F6F6F6;
+    border-radius: 10px;
+    gap: 40px
+}
+
+#join-create-modal #modal-roomcode{
+    border: 7px solid var(--black);
+    padding: 12px 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 14px;
+}
+
+#join-create-modal #memberholder{
+    flex-wrap: wrap;
+    width: 806px;
+    gap: 28px;
+}
+
+#join-create-modal .membercard {
+    gap: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--black);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+#join-create-modal .membercard div:nth-child(1){
+    font-weight: bold;
+}
+
+#join-create-modal .membercard img{
+    width: 144px;
+    height: 144px;
+    background-color: #BCEDF4;
+    border-radius: 50%;
+}
+
+#join-create-modal button{
+    padding: 15px 98px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#join-create-modal button:nth-child(1){
+    background-color: var(--red);
+    color: #fff;
+}
+
+#join-create-modal button:nth-child(2){
+    background-color: var(--blue);
+    color: #444444;
+}
+
+#join-create-modal #join-create-button-holder{
+    gap: 30px;
+}
+
+#homepage #loading img{
+    width: 100px;
+    height: 100px;
+}
+
+#homepage #loading{
+    position: absolute;
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+}
+
+#game-page{
+    height: 100vh;
+    background-color: #FBFBFB;
+}
+
+#game-page #nav{
+    gap: 500px;
+    color: var(--black);
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+#game-page #game-name{
+    font-size: 40px;
+}
+
+#game-page #score{
+    font-size: 20px;
+}
+
+#game-page #letter{
+    font-size: 20px;
+    background-color: var(--black);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+#game-page .choiceHolder{
+    margin-top: 107px;
+    gap: 30px;
+}
+
+#game-page .choice img{
+    height: 450px;
+    width: 340px;
+    object-fit: contain;
+}
+
+#leaderboard-page{
+    height: 100vh;
+    background-color: var(--black);
+    color:white;
+    gap:120px;
+}
+
+#leaderboard-page img{
+    background-color: #BCEDF4;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#leaderboard-page .username{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#leaderboard-page .points{
+    font-size: 18px;
+    font-weight: bold;
+    color: #cfcfcf;
+}
+
+#leaderboard-page .player-card{
+    gap: 20px;
+}
+
+#leaderboard-page .player-position{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#leaderboard-page #winner{
+    position: relative;
+}
+
+#leaderboard-page #winner::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-image: url('./images/icons8-crown-100.png');
+    background-size: contain;
+    top: -40px;
+}
+
+#leaderboard-page #bottom-board{
+    gap: 283px;
+    position: absolute;
+    top:130px;
+    bottom: 100px;
+    height: fit-content;
+}
+
+#leaderboard-page table {
+    width: 100%;
+    border-collapse: collapse;
+    gap: 11px;
+    transform: translateY(50px);
+}
+
+#leaderboard-page table th,
+#leaderboard-page table td {
+    padding: 10px;
+    text-align: left;
+}
+
+#leaderboard-page table th {
+    background-color: var(--blue);
+    color: white;
+}
+
+#leaderboard-page table tr{
+    gap: 366px;
+    border-bottom: 1px solid #ccc;
+}
+
+#leaderboard-page table img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+#leaderboard-page #main{
+    gap: 100px;
+}
+
+#leaderboard-page button{
+    font-size: 20px;
+    padding: 15px 90px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#leaderboard-page button:nth-child(1){
+    background-color: var(--red);
+    color: #fff;
+}
+
+#leaderboard-page button:nth-child(2){
+    background-color: var(--blue);
+    color: #444444;
+}
+
+#leaderboard-page #buttonholder{
+    gap: 15px;
+}

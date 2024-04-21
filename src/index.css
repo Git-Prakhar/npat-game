@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS';
+}
+
+:root {
+    --black: #393939;
+    --blue: #66C3FF;
+    --red: #FF6F6F;
+    --green: #50FF62;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.df {
+    display: flex;
+}
+
+.df-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}

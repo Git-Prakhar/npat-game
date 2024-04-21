@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+
+
+
 #homepage {
     height: 100vh;
-    background-color: var(--black);
+    background-color: #3C5B6F;
 }
 
 #homepage input {
@@ -13,6 +19,7 @@
 #homepage input::placeholder {
     color: #B6B6B6;
 }
+
 
 #homepage input:nth-child(1) {
     width: 492px;
@@ -32,24 +39,28 @@
     height: 47px;
     width: 242px;
     border-radius: 3px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFD0B8;
 }
 
 #homepage .selection-btn:nth-child(1) {
-    background-color: var(--blue);
-    color: #6B6B6B;
+    background-color: #948979;
+    color: #DFD0B8;
 }
 
 #homepage .selection-btn:nth-child(2) {
-    background-color: var(--red);
-    color: white;
+    background-color: #948979;
+    color: #153448;
 }
 
 #homepage .selection-btn:nth-child(3) {
-    background-color: var(--green);
-    color: #6B6B6B;
+    background-color: #948979;
+    color: #153448;
 }
+
 
 #homepage #avatar-selection {
     flex-wrap: wrap;
@@ -61,12 +72,12 @@
 #homepage #avatar-selection img {
     width: 180px;
     height: 180px;
-    background-color: #BCEDF4;
+    background-color: #153448;
     border-radius: 50%;
 }
 
 #homepage #avatar-selection .avatar-selected img {
-    background-color: var(--red);   
+    background-color: #948979;   
 }
 
 #homepage #avatar-selection button {
@@ -150,9 +161,14 @@
     height: 100%;
 }
 
+#username-field,
+#room-field {
+    font-family: 'Montserrat', sans-serif; 
+}
 #game-page{
     height: 100vh;
-    background-color: #FBFBFB;
+    background-color: #3C5B6F;
+    
 }
 
 #game-page #nav{
@@ -163,19 +179,26 @@
 }
 
 #game-page #game-name{
-    font-size: 40px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFD0B8;
 }
 
 #game-page #score{
-    font-size: 20px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFD0B8;
 }
 
 #game-page #letter{
-    font-size: 20px;
-    background-color: var(--black);
-    color: white;
-    padding: 10px 30px;
-    border-radius: 20px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+   
+    color: #DFD0B8;
+    
 }
 
 #game-page .choiceHolder{
@@ -187,11 +210,19 @@
     height: 450px;
     width: 340px;
     object-fit: contain;
+    background-color: #3C5B6F;
+}
+
+#game-page #timing {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFD0B8; 
 }
 
 #leaderboard-page{
     height: 100vh;
-    background-color: var(--black);
+    background-color: #3C5B6F;
     color:white;
     gap:120px;
 }
@@ -206,6 +237,9 @@
 #leaderboard-page .username{
     font-size: 20px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
 }
 
 #leaderboard-page .points{
@@ -236,6 +270,7 @@
     background-size: contain;
     top: -40px;
 }
+
 
 #leaderboard-page #bottom-board{
     gap: 283px;
@@ -283,16 +318,20 @@
     padding: 15px 90px;
     font-weight: bold;
     border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #DFD0B8;
 }
 
+
 #leaderboard-page button:nth-child(1){
-    background-color: var(--red);
+    background-color: #948979;
     color: #fff;
 }
 
 #leaderboard-page button:nth-child(2){
-    background-color: var(--blue);
-    color: #444444;
+    background-color: #948979;
+    color: #fff;
 }
 
 #leaderboard-page #buttonholder{

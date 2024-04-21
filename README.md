@@ -37,7 +37,7 @@ Name Place Animal Thing (NamePLAT) is a fun and challenging game where players c
 
 ## Getting Started
 
-To play the game, just head to `https://nameplat.vercel.app/` .
+To play the game, just head to https://nameplat.vercel.app/ .
 
 ## Contributors
 
